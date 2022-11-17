@@ -1,12 +1,12 @@
-import React from 'react';
-import { RoutesManager } from './setup/routesManager/Index';
+import { FC } from "react";
+import { RoutesManager } from "./setup/routes/Index";
 
-const App:React.FC  = () => {
-    return (
-        <div className="App">
-            <RoutesManager />
-        </div>
-    )
+const App: FC = () => {
+  return (
+    <div className="App">
+      <RoutesManager />
+    </div>
+  )
 }
 
-export default App;
+export default App

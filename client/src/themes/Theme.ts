@@ -1,4 +1,6 @@
-const Theme = {
+import { DefaultTheme } from "styled-components";
+
+const Theme: DefaultTheme = {
     fonts: {
         main: 'Roboto',
         secondary: 'Playfair Display',
@@ -12,7 +14,7 @@ const Theme = {
         darkGrayLight: '#464646',
 
         mediumGrayBold: '#323232',
-        mediumGrayMedium: '#575757', 
+        mediumGrayMedium: '#575757',
         mediumGrayLight: '#7d7d7d',
 
         lightGrayBold: '#fafafa',
@@ -47,10 +49,6 @@ const Theme = {
         default: '0.5s ease-in-out',
         cubicBezier: '0.75s cubic-bezier(0.4, 0, 0, 1)',
     }
-}
-
-export type MyThemeProps = {
-    theme: typeof Theme,
 }
 
 export default Theme;

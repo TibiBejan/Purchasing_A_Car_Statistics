@@ -1,18 +1,12 @@
-import React from 'react';
-import { Form } from '../../components/Form/Index';
-import { defaultProps } from './Index.types';
-// import { Header } from '../../common/Header/Index';
-// import { Footer } from '../../common/Footer/Index';
+import { FC, Fragment } from "react";
+import { IDefaultProps } from "./Index.types";
 
-const HomePage:React.FC<defaultProps> = () => {
-  return (
-    <React.Fragment>
-      {/* <Header /> */}
-      <Form />
-      {/* <Footer /> */}
-    </React.Fragment>
-  )
+const HomePage: FC<IDefaultProps> = () => {
+    return (
+        <Fragment>
+            HomePage
+        </Fragment>
+    )
 }
 
 export { HomePage };
-

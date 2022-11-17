@@ -1,11 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
-import { MyThemeProps } from './Theme';
 
-type Props = {
-    theme: MyThemeProps
-}
-
-const GlobalStyles = createGlobalStyle<Props>`
+const GlobalStyles = createGlobalStyle`
     html,
     body,
     div,
