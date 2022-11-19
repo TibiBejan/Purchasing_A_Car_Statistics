@@ -128,7 +128,6 @@ const GlobalStyles = createGlobalStyle`
     }
 
     input, 
-    select,
     textarea,
     button {
         -webkit-appearance: none;
@@ -137,6 +136,17 @@ const GlobalStyles = createGlobalStyle`
         border: none;
         background-color: transparent;
         cursor: pointer;
+    }
+
+    select {
+        -webkit-appearance: menulist;
+        -moz-appearance: menulist;
+        appearance: menulist;
+        border-radius: 0;
+        background-color: transparent;
+        cursor: pointer;
+        outline: none;
+        border: none;
     }
 
     ::-moz-selection { /* Code for Firefox */
@@ -153,8 +163,16 @@ const GlobalStyles = createGlobalStyle`
         font-size: 2rem;
     }
 
+    h2 {
+        font-size: 1.75rem;
+    }
+
     h3 {
         font-size: 1.5rem;
+    }
+
+    label {
+        font-size: 1.25rem;
     }
 `;
 
