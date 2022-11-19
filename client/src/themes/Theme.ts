@@ -2,26 +2,15 @@ import { DefaultTheme } from "styled-components";
 
 const Theme: DefaultTheme = {
     fonts: {
-        main: 'Roboto',
+        main: 'Inter, Avenir, Helvetica, Arial, sans-serif',
         secondary: 'Playfair Display',
     },
     colors: {
-        white: '#fff',
-        black: '#111',
-
-        darkGrayBold: '#1a1a1a',
-        darkGrayMedium: '#272727',
-        darkGrayLight: '#464646',
-
-        mediumGrayBold: '#323232',
-        mediumGrayMedium: '#575757',
-        mediumGrayLight: '#7d7d7d',
-
-        lightGrayBold: '#fafafa',
-        lightGrayMedium: '#eaeaea',
-
-        primaryYellow: '#d3a14c',
-
+        primaryBlue: '#02020E',
+        secondaryBlue: '#1A1B26',
+        primaryText: '#F8F8F9',
+        secondaryText: '#696A75',
+        accentColor: '#D2BCA1',
         errorColor: '#fc8f76',
         warningColor: '#f7cc71',
         successColor: '#10cf98',

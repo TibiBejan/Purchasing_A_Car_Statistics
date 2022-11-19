@@ -7,22 +7,11 @@ declare module 'styled-components' {
             secondary: string,
         },
         colors: {
-            white: string,
-            black: string,
-
-            darkGrayBold: string,
-            darkGrayMedium: string,
-            darkGrayLight: string,
-
-            mediumGrayBold: string,
-            mediumGrayMedium: string,
-            mediumGrayLight: string,
-
-            lightGrayBold: string,
-            lightGrayMedium: string,
-
-            primaryYellow: string,
-
+            primaryBlue: string,
+            secondaryBlue: string,
+            primaryText: string,
+            secondaryText: string,
+            accentColor: string,
             errorColor: string,
             warningColor: string,
             successColor: string,
